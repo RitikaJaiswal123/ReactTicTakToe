@@ -10,3 +10,23 @@ Currently, two official plugins are available:
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+
+
+diploy on github
+npm install gh-pages  --save-dev
+git init
+git add 
+git status 
+
+git commit -m "first commit"
+git branch -M main 
+git remote add origin  https://github.com/RitikaJaiswal123/ReactTicTakToe
+git push -u origin main 
+
+
+package.json changes:
+"homepage" : "https://github.com/RitikaJaiswal123/ReactTicTakToe"
+"predeploy" : "npm run build"
+"deploy" : "gh-pages -d build" 
